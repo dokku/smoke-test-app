@@ -1,6 +1,6 @@
 # Smoke test app for Dokku test suite
 
-Project: https://github.com/dokku/dokku
+Used for Dokku test deploys
 
 ## Installation
 
