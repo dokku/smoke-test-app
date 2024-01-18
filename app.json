@@ -4,5 +4,18 @@
       "command": "python task.py",
       "schedule": "0 5 * * *"
     }
-  ]
+  ],
+  "healthchecks": {
+    "web": [
+      {
+        "attempts": 2,
+        "content": "python/http.server",
+        "name": "check-1",
+        "path": "/",
+        "timeout": 5,
+        "type": "startup",
+        "wait": 2
+      }
+    ]
+  }
 }
