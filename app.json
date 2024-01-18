@@ -2,7 +2,7 @@
   "cron": [
     {
       "command": "python task.py",
-      "schedule": "0 5 * * * *"
+      "schedule": "0 5 * * *"
     }
   ]
 }
