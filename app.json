@@ -1,0 +1,8 @@
+{
+  "cron": [
+    {
+      "command": "python task.py",
+      "schedule": "0 5 * * * *"
+    }
+  ]
+}
