@@ -8,11 +8,15 @@
   "formation": {
     "web": {
       "autoscaling": {
-        "type": "memory",
-        "metadata": {
-          "type": "Utilization",
-          "value": "60"
-        }
+        "triggers": [
+          {
+            "type": "memory",
+            "metadata": {
+              "type": "Utilization",
+              "value": "60"
+            }
+          }
+        ]
       }
     }
   },
