@@ -5,7 +5,7 @@
       "schedule": "0 5 * * *"
     }
   ],
-  "formations": {
+  "formation": {
     "web": {
       "autoscaling": {
         "type": "memory",
