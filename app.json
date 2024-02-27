@@ -5,6 +5,17 @@
       "schedule": "0 5 * * *"
     }
   ],
+  "formations": {
+    "web": {
+      "autoscaling": {
+        "type": "memory",
+        "metadata": {
+          "type": "Utilization",
+          "value": "60"
+        }
+      }
+    }
+  },
   "healthchecks": {
     "web": [
       {
