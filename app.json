@@ -10,13 +10,6 @@
       "autoscaling": {
         "triggers": [
           {
-            "type": "memory",
-            "metadata": {
-              "type": "Utilization",
-              "value": "60"
-            }
-          },
-          {
             "type": "http"
           }
         ]
