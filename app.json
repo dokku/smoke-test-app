@@ -15,6 +15,9 @@
               "type": "Utilization",
               "value": "60"
             }
+          },
+          {
+            "type": "http"
           }
         ]
       }
