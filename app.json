@@ -8,6 +8,8 @@
   "formation": {
     "web": {
       "autoscaling": {
+        "min_quantity": 1,
+        "max_quantity": 10,
         "triggers": [
           {
             "type": "memory",
