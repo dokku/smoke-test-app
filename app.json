@@ -10,7 +10,11 @@
       "autoscaling": {
         "triggers": [
           {
-            "type": "http"
+            "type": "http",
+            "metadata": {
+              "scaledown_period_seconds": "150",
+              "request_rate_target_value": "50"
+            }
           }
         ]
       }
